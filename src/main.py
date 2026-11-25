@@ -86,9 +86,9 @@ class PinCodeGenerator(PasswordGenerator):
         """
         return ''.join([random.choice(string.digits) for num in range(self.length)])
 
-
+    
 """
-Testing Classes
+Testing
 """
 def test_random_password_generatot():
     rando_gen = RandomPasswordGenerator(length=10, include_numbers=True, include_symbols=True)

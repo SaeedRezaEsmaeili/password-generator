@@ -32,4 +32,4 @@ elif option == "Pin Code":
 
 
 password = generator.generate()
-st.write(fr"Pin Code: ``` {password} ``` ")
+st.write(fr"Password: ``` {password} ``` ")
